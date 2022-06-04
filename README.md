@@ -30,3 +30,9 @@ Ya con la consulta realizada y la obtención de todos los datos gracias a los en
 ## Despliegue
 
 Por ultimo se crearon las rutas dentro del archivo api.php, el cual es el designado por laravel para almacenar las rutas para los api's. Tratando de respetar el formato establecido en la prueba donde la ruta es /api/zip-codes/{zip_code}.
+
+## Consideraciones
+
+Al momento de insertar los datos a la base de datos no se realizo una limpieza de los mismos como la eliminación de los acentos ya que considero que la información es importante como es proporcionada, claro que si se hubiera hecho esto se reduciría el tiempo de respuesta.
+
+La base de datos fue implementada en mysql, y no se creo las respectivas migraciones y seeders en el proyecto laravel por considerarlas no necesarias.
